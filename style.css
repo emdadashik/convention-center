@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Work+Sans:wght@200;500;700;900&family=Yeseva+One&display=swap');
+
+.container{
+    width: 85%;
+    margin: 0 auto;
+    position: relatiove;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.text-area{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+.text{
+    width: 45%;
+    text-align: center;
+    margin: auto;
+    color: aliceblue;
+}
+.para{
+    width: 35%;
+    text-align: center;
+    margin: auto;
+    color: aliceblue;
+}
+.btn1{
+    display: block;
+    margin: 20px auto;
+    font-weight: 700;
+}
+#carouselExampleIndicators{
+    margin-bottom: 40px;
+}
+.under-hero{
+    width: 80%;
+    display: flex;
+    margin: 10px auto;
+}
+.text-hero{
+    margin-left: 25px;
+    margin-top: 35px;
+}
+.btn{
+    font-weight: 700;
+}
+.package-list li{
+    list-style-image: url('icons/tick.png');
+}
+.package-section{
+    width: 80%;
+    margin: 8px auto 30px auto;
+}
+.btn2{
+    padding: 12px 20px;
+    border-radius: 24px;
+    background: rgba(244, 149, 209,0.1);
+    color: #3F87F5;
+}
+.card1{
+    padding: 20px;
+    color: aliceblue;
+    border-radius: 26px;
+    background: #3F87F5;
+    box-shadow: 0px 42px 34px 0px rgba(63, 135, 245, 0.25);
+}
+.btns{
+    width: 100%;
+}
+.bts{
+    background-color: aliceblue;
+}
+.bts:hover{
+    color: aliceblue !important;
+}
+.special-list li{
+    list-style-image: url('icons/tick2.png');
+}
+.cardd{
+    margin-top: 20px;
+}
+.cards{
+    padding: 20px;
+    width: 360px;
+    height: 343px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background: #FFF;
+    margin-right: 20px;
+    box-shadow: 0px 12px 30px 0px rgba(0, 0, 0, 0.13);
+}
+.client-section{
+    width: 85%;
+    margin: 0 auto;
+}
+.color{
+    color: #6C6C6C;
+}
+.FAQ-area{
+    margin: 0 auto;
+}
+.accordion{
+    width: 576px;
+    margin-left: 80px;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background:Black;
+    padding: 30px;
+    color: aliceblue;
+}
+.footer img{
+    width: 200px;
+}
+@media screen and (max-width: 576px){
+    .text{
+        display: none;
+    }
+    .para{
+        display: none;
+    }
+    .btn1{
+        display: none;
+    }
+    .under-hero{
+        flex-direction: column;
+    }
+    .cardd{
+        margin-bottom: 15px;
+    }
+    .cards{
+        display: block;
+        margin-bottom: 15px;
+        margin-left: auto;
+        margin-right: auto;
+        height: 390px;
+    }
+    .accordion{
+        width: 450px;
+    }
+    .accordion img{
+        margin-top: 20px;
+        width: 80%;
+    }
+    .footer{
+        flex-direction: column;
+    }
+}
